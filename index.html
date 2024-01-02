@@ -11,6 +11,7 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -124,7 +125,55 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>Resources for JavaScript info:</li>
+          <ul>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics"> JavaScript Basics</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">JavaScript data types</a></li>
+          </ul>
+          <li>The .js file extension indicates that file is a JavaScript file!</li>
+          <li>We use the var keyword to declare a variable, then give that variable a name and then a corresponding value!</li>
+          <li>Example of creating a variable: var shape = "circle";</li>
+          <li>Each line of JavaScript code ends with a semicolon!</li>
+          <li>The console.log method can output a message to the web console by adding an argument! Ex: console.log(topics);</li>
+          <li>We need to link the JavaScript file to our HTML file! Ex in footer element of HTML file: script src="./assets/script.js" surroudned by angle brackets!</li>
+          <li>We placed the link in the footer element within the body element in HTML file!</li>
+          <li>We need to use Chrome DevTools to see the effects of our JavaScript code, which can be accessed through right-clicking on a Google Chrome webpage and selecting Inspect (or Control + Shift + I)! We then move to Console!</li>
+          <li>JavaScript's control flow is code runs from the first statement at the top of the page, down to the last statement at the bottom of the page!</li>
+          <li>Control flow can be interrupted and controlled by conditional statements and loops!</li>
+          <li>To create an if statement, we will use this format:</li>
+          <ul>
+            <li>
+              if (condition) { 
+                //block of code to be executed if condition is truthy 
+              }
+            </li>
+          </ul>
+          <li>Format of if else if statements: </li>
+          <ul>
+            <li>
+              if (condition) { 
+                //block of code to be executed if first condition is truthy 
+              } else if (second condition) {
+                //block of code to be executed if second condition is truthy
+              }
+            </li>
+          </ul>
+          <li>The strict equality operator (===) checks to see if two values are equal and of the same data type!</li>
+          <li>An array is a single varaible that is used to hold a group of data and can store different type of data simulataneously!</li>
+          <li>Declaring an array example 1: var shapes = ["triangle", "square", "pentagon", "circle"];</li>
+          <li>Declaring an array example 2: var studentInfo = ["Lu", 54, true];</li>
+          <li>The index is the location of the data item in the array!</li>
+          <li>JavaScript arrays are zero-indexed and sequential: the first item in any array has an index of 0</li>
+          <li>To access a data inside an array: array-name[index];</li>
+          <li>A for loop contains 3 important statements:</li>
+          <ul>
+            <li>The first statement determines the starting point for our loop!</li>
+            <li>The second statement is the condition!</li>
+            <li>The third statement is the increment or decreement that allows the array to iterate over each item!</li>
+            <li>for loop format: for(var x = 0; x < shapes.length; x++) { // code block }</li>
+            <li>x++ is shorthanded for x+1</li>
+          </ul>
+          <li> Comment out multiple lines of code with /* and */ pair!</li>
         </ul>
       </section>
     </main>
@@ -132,5 +181,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
