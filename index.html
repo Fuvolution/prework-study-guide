@@ -58,15 +58,36 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>A margin indicates how much space we want around the outside of an element.</li>
-          <li>A padding indicates how much space we want around the content inside an element.</li>
-          <li>In the external CSS file, the period before the name (ex: .card) designates that as a class selector.</li>
-          <li>Any HTML element assigned to the class will gain the property assignments specified from the specificied class selector!</li>
+          <li>There are 3 ways to style a webpage using CSS: inline CSS, internal CSS style sheet, and external CSS style sheet</li>
+          <ul>
+            <li>Inline CSS apply to a specific HTML tag using a style attribute with a CSS rule directly in the HTML file!</li>
+            <li>Internal CSS style sheet apply CSS rules only to the specific web page where the style element is placed inside the head element for that webpage!</li>
+            <li>External CSS style sheet is a CSS file that contains CSS rules that only applies to HTML files that contain the link element placed in the HTML's head element!</li>
+          </ul>
+          <li>Basics of CSS Rule:</li>
+          <ul>
+            <li>A selector defines the element or attribute to which the rules (or declarations) will apply!</li>
+            <li>Declarations are made of the CSS property and the value of that corresponding property! Ex: {color: blue} is a declaration where color is Property and blue is the Value!</li>
+            <li>A margin indicates how much space we want around the outside of an element and is not visible on the page!</li>
+            <li>A padding indicates how much space we want around the content inside an element!</li>
+            <li>CSS Box model from Innermost to Outermost: Content, Padding, Border, and Margin</li>
+          </ul>
+          <li>* selector apply the CSS declarations to all the elements on the page!</li>
+          <li>You can combine two selectors into a single CSS rule with a comma, which allows the declaration to affect both selectors!</li>
+          <li>The img selector assign property values to any image element in the markup!</li>
+          <li>The display property is assigned with the block vlaue, which assigns each image to start on a new line!</li>
+          <li>We can style HTML elements using either the elements or class attributes as selectors!</li>
+          <li>Using class attributes as selectors enable us to freely choose which elements will be assigned the CSS rule!</li>
+          <li>Class selectors are desginated with a period (.) followed by the class attribute like .card!</li>
+          <li>The box-shadow CSS property adds shadow effects around an element's frame; it's described by the X and Y offsets relative to the element, blur and spread radius, and color!</li>
+          <li>CSS Properties and Values list: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"></a></li>
           <li>We need to link our external CSS stylesheet file to our HTML file to have the properties applied to elements and classes specified in HTML file!</li>
-          <li>To link our HTML and external CSS file together, we use link rel="stylesheet" href="./assets/style.css" surrounded by angle brackets!</li>
-          <li> The rel attribute specifies the relationship between the current document and the linked document resource!</li>
-          <li>The href attribute specifies the location (URL) of the external resource!</li>
-          <li>The href attribute uses a relative path, which means the location is derived from the current location: the index.html file!</li>
+          <ul>
+            <li>To link our HTML and external CSS file together, we use link rel="stylesheet" href="./assets/style.css" surrounded by angle brackets!</li>
+            <li>The rel attribute specifies the relationship between the current document and the linked document resource!</li>
+            <li>The href attribute specifies the location (URL) of the external resource!</li>
+            <li>The href attribute uses a relative path, which means the location is derived from the current location: the index.html file!</li>
+          </ul>
         </ul>
       </section>
 
@@ -96,6 +117,7 @@
             <li>Delete the old/outdated feature branch (git branch -d old-feature-branch-name)</li>
             <li>Repeat Step 3 through Step 17 until the challenge or project requirements are met and you have a minimum viable product!</li>
           </ol>
+          <li>Separation of concerns is the design principle of separating code into different files based on its use or function!</li>
         </ul>
       </section>
 
